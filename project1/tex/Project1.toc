@@ -1,0 +1,17 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{0}{section*.1}%
+\tocdepth@restore 
+\contentsline {section}{\numberline {}Introduction}{1}{section*.2}%
+\contentsline {section}{\numberline {}Exercise 1: Ordinary Least Square (OLS) on the Franke function}{1}{section*.3}%
+\contentsline {section}{\numberline {}Exercise 2: Bias-variance trade-off and bootstrapping}{5}{section*.4}%
+\contentsline {section}{\numberline {}Exercise 3: Cross-validation as resampling technique, adding more complexity}{8}{section*.5}%
+\contentsline {section}{\numberline {}Exercise 4: Ridge Regression on the Franke function with resampling}{9}{section*.6}%
+\contentsline {section}{\numberline {}Exercise 5: Lasso regression on the Franke function with resampling}{12}{section*.7}%
+\contentsline {section}{\numberline {}Comparing Regression methods}{14}{section*.8}%
+\contentsline {section}{\numberline {}Exercise 6: Analysis of real data}{17}{section*.9}%
+\contentsline {subsection}{\numberline {}OLS}{18}{section*.10}%
+\contentsline {subsection}{\numberline {}Ridge}{20}{section*.11}%
+\contentsline {subsection}{\numberline {}Lasso}{21}{section*.12}%
+\contentsline {subsection}{\numberline {}Analysis}{22}{section*.13}%
+\appendix 
+\contentsline {section}{\numberline {A}Bias-variance Decomposition}{24}{section*.14}%

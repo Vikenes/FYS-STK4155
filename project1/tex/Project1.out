@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section*.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section*.3}{Exercise 1: Ordinary Least Square \(OLS\) on the Franke function}{}% 3
+\BOOKMARK [1][-]{section*.4}{Exercise 2: Bias-variance trade-off and bootstrapping}{}% 4
+\BOOKMARK [1][-]{section*.5}{Exercise 3: Cross-validation as resampling technique, adding more complexity}{}% 5
+\BOOKMARK [1][-]{section*.6}{Exercise 4: Ridge Regression on the Franke function with resampling}{}% 6
+\BOOKMARK [1][-]{section*.7}{Exercise 5: Lasso regression on the Franke function with resampling}{}% 7
+\BOOKMARK [1][-]{section*.8}{Comparing Regression methods}{}% 8
+\BOOKMARK [1][-]{section*.9}{Exercise 6: Analysis of real data}{}% 9
+\BOOKMARK [2][-]{section*.10}{OLS}{section*.9}% 10
+\BOOKMARK [2][-]{section*.11}{Ridge}{section*.9}% 11
+\BOOKMARK [2][-]{section*.12}{Lasso}{section*.9}% 12
+\BOOKMARK [2][-]{section*.13}{Analysis}{section*.9}% 13
+\BOOKMARK [1][-]{section*.14}{Bias-variance Decomposition}{}% 14

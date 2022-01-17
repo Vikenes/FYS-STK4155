@@ -1,0 +1,31 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Gradient Descent}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Ordinary Gradient Descent}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Stochastic Gradient Descent}{2}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}Adding Momentum}{3}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}Logistic Regression}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Feed-Forward Deep Neural Networks}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Architecture of Neural Networks}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Activation Functions}{5}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Cost Function and Regularization}{6}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}The Backpropagation Algorithm}{7}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Numerical gradients}{9}{subsubsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.6}Initialization of weights}{9}{subsubsection.2.3.6}%
+\contentsline {section}{\numberline {3}Methods}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Franke Function}{10}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Stochastic Gradient Descent}{10}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Feed Forward Neural Network}{12}{subsubsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.2}Wisconsin Breast Cancer Data}{13}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Feed Forward Neural Network}{14}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Logistic Regression}{14}{subsubsection.3.2.2}%
+\contentsline {section}{\numberline {4}Results}{15}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Franke Function}{15}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Stochastic Gradient Descent}{15}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Feed Forward Neural Network}{19}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Wisconsin Breast Cancer Data}{27}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Feed Forward Neural Network}{27}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Logistic Regression}{30}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Discussion}{34}{section.5}%
+\contentsline {section}{\numberline {6}Conclusion}{35}{section.6}%

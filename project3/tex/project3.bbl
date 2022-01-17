@@ -1,0 +1,45 @@
+\begin{thebibliography}{1}
+
+\bibitem{PINNjanblechschmidt}
+Jan Blechschmidt.
+\newblock Using physics informed neural networks (pinns) to solve parabolic
+  pdes.
+\newblock 2021.
+\newblock
+  \url{https://colab.research.google.com/github/janblechschmidt/PDEsByNNs/blob/main/PINN\_Solver.ipynb}.
+
+\bibitem{lectures2015}
+Morten Hjorth-Jensen.
+\newblock Computational physics, lecture notes fall 2015.
+\newblock {\em Department of Physics, University of Oslo}, August 2015.
+\newblock
+  \url{https://github.com/CompPhysics/ComputationalPhysics/blob/master/doc/Lectures/lectures2015.pdf}.
+
+\bibitem{kingma2017adam}
+Diederik~P. Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization, 2017.
+
+\bibitem{Linge2017}
+Svein Linge and Hans~Petter Langtangen.
+\newblock {\em Diffusion Equations}, pages 207--322.
+\newblock Springer International Publishing, Cham, 2017.
+
+\bibitem{raissi2017physics}
+Maziar Raissi, Paris Perdikaris, and George~Em Karniadakis.
+\newblock Physics informed deep learning (part i): Data-driven solutions of
+  nonlinear partial differential equations, 2017.
+
+\bibitem{project2}
+Håkon~Olav Torvik, Vetle Vikenes, and Sigurd~Sørlie Rustad.
+\newblock Machine learning: Using regression and neural networks to fit
+  continuous functions and classify data.
+\newblock {\em University of Oslo}, October 2021.
+
+\bibitem{yi2004neural}
+Zhang Yi, Yan Fu, and Hua~Jin Tang.
+\newblock Neural networks based approach for computing eigenvectors and
+  eigenvalues of symmetric matrix.
+\newblock {\em Computers \& Mathematics with Applications}, 47(8-9):1155--1164,
+  2004.
+
+\end{thebibliography}

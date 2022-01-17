@@ -1,0 +1,138 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\babel@aux[2]{}
+\@nameuse{bbl@beforestart}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{english}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Theory}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}The diffusion equation}{1}{subsection.2.1}\protected@file@percent }
+\citation{lectures2015}
+\citation{Linge2017}
+\newlabel{eq:diffusion_equation_1D}{{2.3}{2}{The diffusion equation}{equation.2.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Analytical solution}{2}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:analytical_solution_diffusion}{{2.7}{2}{Analytical solution}{equation.2.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Explicit forward Euler}{2}{subsection.2.3}\protected@file@percent }
+\newlabel{eq:forward_euler}{{2.9}{2}{Explicit forward Euler}{equation.2.9}{}}
+\newlabel{eq:stability}{{2.11}{2}{Explicit forward Euler}{equation.2.11}{}}
+\citation{project2}
+\citation{raissi2017physics}
+\citation{PINNjanblechschmidt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Solving Differential equations with deep learning}{3}{subsection.2.4}\protected@file@percent }
+\newlabel{eq:NN_model}{{2.13}{3}{Solving Differential equations with deep learning}{equation.2.13}{}}
+\newlabel{eq:residual}{{2.14}{3}{Solving Differential equations with deep learning}{equation.2.14}{}}
+\citation{yi2004neural}
+\newlabel{eq:NN_loss}{{2.15}{4}{Solving Differential equations with deep learning}{equation.2.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Solving eigenvalue problems}{4}{subsection.2.5}\protected@file@percent }
+\newlabel{eq:diff_eig}{{2.17}{4}{Solving eigenvalue problems}{equation.2.17}{}}
+\newlabel{eq:rayleigh_quotient}{{2.20}{5}{Solving eigenvalue problems}{equation.2.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{5}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Unit testing}{5}{subsection.3.1}\protected@file@percent }
+\citation{project2}
+\citation{raissi2017physics}
+\citation{project2}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Neural network setup}{6}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Forward Euler}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces In this plot we highlight the data points used for training the neural network. Points on the boundary are highlighted, and we use $50$ points for $t=0$, and a total of $50$ points at $x=0$ and $x=1$, resulting in a total of $100$ boundary points. We use $10^4$ data points not at the boundary.\relax }}{7}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:NN_training_points}{{1}{7}{In this plot we highlight the data points used for training the neural network. Points on the boundary are highlighted, and we use $50$ points for $t=0$, and a total of $50$ points at $x=0$ and $x=1$, resulting in a total of $100$ boundary points. We use $10^4$ data points not at the boundary.\relax }{figure.caption.2}{}}
+\newlabel{eq:MSE}{{3.1}{7}{Forward Euler}{equation.3.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Comparing numerical results}{7}{subsection.3.4}\protected@file@percent }
+\newlabel{eq:absolute_difference}{{3.2}{8}{Comparing numerical results}{equation.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Finding eigenvalues}{8}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{9}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Finding a suitable Neural network}{9}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Computed loss, equation \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:NN_loss}\unskip \@@italiccorr )}}, of the neural network after $500$ training iterations. The first number in the first column represents the number of hidden layers of the network, while the second number is the number of hidden nodes in each layer, which is $20$ for all three networks. $N_h=4$ yields the lowest MSE.\relax }}{9}{table.caption.3}\protected@file@percent }
+\newlabel{tab:NN_architecture_loss}{{1}{9}{Computed loss, equation \eqref {eq:NN_loss}, of the neural network after $500$ training iterations. The first number in the first column represents the number of hidden layers of the network, while the second number is the number of hidden nodes in each layer, which is $20$ for all three networks. $N_h=4$ yields the lowest MSE.\relax }{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Cost function of the neural network as a function of iterations, using $20$ hidden nodes in each network. The number of hidden layers in the network are $2,\,4$ and $8$, for the upper left, upper right and lower left panel, respectively.\relax }}{10}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:Error_NN_architecture}{{2}{10}{Cost function of the neural network as a function of iterations, using $20$ hidden nodes in each network. The number of hidden layers in the network are $2,\,4$ and $8$, for the upper left, upper right and lower left panel, respectively.\relax }{figure.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The solution of the diffusion equation of the final neural network, with $N_h=4$ hidden layers.\relax }}{10}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:NN_architecture_solution}{{3}{10}{The solution of the diffusion equation of the final neural network, with $N_h=4$ hidden layers.\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Error of Forward Euler scheme}{11}{subsection.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Mean squared error of approximated solution by forward euler, using $\Delta x=0.01$ and time step $\Delta t$ dictated by the stability criterion \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eq:stability}\unskip \@@italiccorr )}}.\relax }}{11}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:FE_MSE}{{4}{11}{Mean squared error of approximated solution by forward euler, using $\Delta x=0.01$ and time step $\Delta t$ dictated by the stability criterion \eqref {eq:stability}.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Comparison of error}{11}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces MSE of the neural network at two different times, using four different training iterations.\relax }}{11}{table.caption.7}\protected@file@percent }
+\newlabel{tab:NN_MSE_iterations}{{2}{11}{MSE of the neural network at two different times, using four different training iterations.\relax }{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The difference between the analytical solution of the diffusion equation and the solution obtained by forward euler at two different points in time.\relax }}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:FE_absolute_difference}{{5}{12}{The difference between the analytical solution of the diffusion equation and the solution obtained by forward euler at two different points in time.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The difference between the analytical solution of the diffusion equation and the solution obtained by the neural network at two different points in time, after $5\cdot 10^4$ training iterations. The neural network has $N_h=4$ hidden layers.\relax }}{12}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:NN_relative_error}{{6}{12}{The difference between the analytical solution of the diffusion equation and the solution obtained by the neural network at two different points in time, after $5\cdot 10^4$ training iterations. The neural network has $N_h=4$ hidden layers.\relax }{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces MSE as function of spatial step $\Delta x$ for two different time levels, for forward euler scheme and neural network. Forward euler is abbreviated as FE and neural network as NN.\relax }}{13}{table.caption.10}\protected@file@percent }
+\newlabel{tab:MSE_compare}{{3}{13}{MSE as function of spatial step $\Delta x$ for two different time levels, for forward euler scheme and neural network. Forward euler is abbreviated as FE and neural network as NN.\relax }{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Eigenvalue problem}{13}{subsection.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Predictions by forward euler (FE) and neural network (NN) of the eigenvector corresponding to the largest eigenvalue of a real, symmetric $3\times 3$ matrix. The horizontal dotted lines are the components of the eigenvector as found by NumPy.\relax }}{13}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:eigvec_T5_N1000}{{7}{13}{Predictions by forward euler (FE) and neural network (NN) of the eigenvector corresponding to the largest eigenvalue of a real, symmetric $3\times 3$ matrix. The horizontal dotted lines are the components of the eigenvector as found by NumPy.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Rayleigh quotients of forward euler (FE) and neural network (NN) representing predictions of the largest eigenvalue of a real, symmetric $3\times 3$ matrix. The horizontal dotted line is the largest eigenvalue as found by NumPy.\relax }}{14}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:eigval_T5_N1000}{{8}{14}{Rayleigh quotients of forward euler (FE) and neural network (NN) representing predictions of the largest eigenvalue of a real, symmetric $3\times 3$ matrix. The horizontal dotted line is the largest eigenvalue as found by NumPy.\relax }{figure.caption.12}{}}
+\newlabel{fig:eigvec_T5_N10}{{9a}{15}{Eigenvectors\relax }{figure.caption.13}{}}
+\newlabel{sub@fig:eigvec_T5_N10}{{a}{15}{Eigenvectors\relax }{figure.caption.13}{}}
+\newlabel{fig:eigval_T5_N10}{{9b}{15}{Rayleigh quotients\relax }{figure.caption.13}{}}
+\newlabel{sub@fig:eigval_T5_N10}{{b}{15}{Rayleigh quotients\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Predictions by forward euler (FE) and neural network (NN) of largest eigenvalue and corresponding eigenvector of a real, symmetric $3\times 3$ matrix, using a time step $\Delta t = 0.5$. The $x$ and $y$ axes are identical to those in figure \ref  {fig:eigvec_T5_N1000} and \ref  {fig:eigval_T5_N1000}\relax }}{15}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:eig_T5_N10}{{9}{15}{Predictions by forward euler (FE) and neural network (NN) of largest eigenvalue and corresponding eigenvector of a real, symmetric $3\times 3$ matrix, using a time step $\Delta t = 0.5$. The $x$ and $y$ axes are identical to those in figure \ref {fig:eigvec_T5_N1000} and \ref {fig:eigval_T5_N1000}\relax }{figure.caption.13}{}}
+\newlabel{fig:eigvec_T5_N6}{{10a}{15}{Eigenvectors\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:eigvec_T5_N6}{{a}{15}{Eigenvectors\relax }{figure.caption.14}{}}
+\newlabel{fig:eigval_T5_N6}{{10b}{15}{Rayleigh quotients\relax }{figure.caption.14}{}}
+\newlabel{sub@fig:eigval_T5_N6}{{b}{15}{Rayleigh quotients\relax }{figure.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix. A time step of $\Delta t = 0.83$ is used. Other than increased eigenvector component values for forward Euler on the left panel, the $x$ and $y$ axes are identical to those in figure \ref  {fig:eigvec_T5_N1000} and \ref  {fig:eigval_T5_N1000}\relax }}{15}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:eig_T5_N6}{{10}{15}{Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix. A time step of $\Delta t = 0.83$ is used. Other than increased eigenvector component values for forward Euler on the left panel, the $x$ and $y$ axes are identical to those in figure \ref {fig:eigvec_T5_N1000} and \ref {fig:eigval_T5_N1000}\relax }{figure.caption.14}{}}
+\newlabel{fig:eigvec_T5_N1000_eta01}{{11a}{15}{Eigenvectors\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:eigvec_T5_N1000_eta01}{{a}{15}{Eigenvectors\relax }{figure.caption.15}{}}
+\newlabel{fig:eigval_T5_N1000_eta01}{{11b}{15}{Rayleigh quotients\relax }{figure.caption.15}{}}
+\newlabel{sub@fig:eigval_T5_N1000_eta01}{{b}{15}{Rayleigh quotients\relax }{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix, using a learning rate of $0.1$ and a time step $\Delta t = 0.005$. The $x$ and $y$ axes are identical to those in figure \ref  {fig:eigvec_T5_N1000} and \ref  {fig:eigval_T5_N1000}\relax }}{15}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:eig_T5_N1000_eta01}{{11}{15}{Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix, using a learning rate of $0.1$ and a time step $\Delta t = 0.005$. The $x$ and $y$ axes are identical to those in figure \ref {fig:eigvec_T5_N1000} and \ref {fig:eigval_T5_N1000}\relax }{figure.caption.15}{}}
+\newlabel{fig:eigvec_T5_N1000_epochs50}{{12a}{16}{Eigenvectors\relax }{figure.caption.16}{}}
+\newlabel{sub@fig:eigvec_T5_N1000_epochs50}{{a}{16}{Eigenvectors\relax }{figure.caption.16}{}}
+\newlabel{fig:eigval_T5_N1000_epochs50}{{12b}{16}{Rayleigh quotients\relax }{figure.caption.16}{}}
+\newlabel{sub@fig:eigval_T5_N1000_epochs50}{{b}{16}{Rayleigh quotients\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix, using a learning rate of $0.1$, $50$ epochs and a time step $\Delta t = 0.005$. Other than negative eigenvector components in the left panel, and lower Rayleigh quotient in the right panel, the $x$ and $y$ axes are identical to those in figure \ref  {fig:eigvec_T5_N1000} and \ref  {fig:eigval_T5_N1000}\relax }}{16}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:eig_T5_N1000_epochs50}{{12}{16}{Predictions of largest eigenvalue and corresponding eigenvector by forward euler and neural network for a real, symmetric $3\times 3$ matrix, using a learning rate of $0.1$, $50$ epochs and a time step $\Delta t = 0.005$. Other than negative eigenvector components in the left panel, and lower Rayleigh quotient in the right panel, the $x$ and $y$ axes are identical to those in figure \ref {fig:eigvec_T5_N1000} and \ref {fig:eigval_T5_N1000}\relax }{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Predictions of eigenvector corresponding to the largest eigenvalue for a real, symmetric $6\times 6$ matrix using Forward Euler. A time step of $\Delta t = 0.005$ and a total time $T=2$ is used.\relax }}{16}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:FE_eigvec_T2_N1000_dim6}{{13}{16}{Predictions of eigenvector corresponding to the largest eigenvalue for a real, symmetric $6\times 6$ matrix using Forward Euler. A time step of $\Delta t = 0.005$ and a total time $T=2$ is used.\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Predictions of eigenvector corresponding to the largest eigenvalue for a real, symmetric $6\times 6$ matrix using Neural network. A time step of $\Delta t = 0.005$ and a total time $T=2$ is used.\relax }}{17}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:NN_eigvec_T2_N1000_dim6}{{14}{17}{Predictions of eigenvector corresponding to the largest eigenvalue for a real, symmetric $6\times 6$ matrix using Neural network. A time step of $\Delta t = 0.005$ and a total time $T=2$ is used.\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Rayleigh quotient corresponding to the largest eigenvalue of a real, symmetric $6\times 6$ matrix.\relax }}{17}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:eigval_T2_N1000_dim6}{{15}{17}{Rayleigh quotient corresponding to the largest eigenvalue of a real, symmetric $6\times 6$ matrix.\relax }{figure.caption.19}{}}
+\citation{kingma2017adam}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{18}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Solving the diffusion equation with Forward Euler}{18}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Solving the diffusion equation with a neural network}{18}{subsection.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Comparison between Forward Euler and neural network}{18}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Using Forward Euler and Neural Network to find eigenvalues}{19}{subsection.5.4}\protected@file@percent }
+\citation{project2}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{20}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Appendix}{21}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Analytical solution of the diffusion equation}{21}{subsection.7.1}\protected@file@percent }
+\newlabel{app:1D_diff_eq}{{7.1}{21}{Analytical solution of the diffusion equation}{subsection.7.1}{}}
+\bibstyle{plain}
+\bibdata{refs}
+\bibcite{PINNjanblechschmidt}{{1}{}{{}}{{}}}
+\bibcite{lectures2015}{{2}{}{{}}{{}}}
+\bibcite{kingma2017adam}{{3}{}{{}}{{}}}
+\bibcite{Linge2017}{{4}{}{{}}{{}}}
+\bibcite{raissi2017physics}{{5}{}{{}}{{}}}
+\bibcite{project2}{{6}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Forward Euler unit test results}{24}{subsection.7.2}\protected@file@percent }
+\newlabel{app:unit_test}{{7.2}{24}{Forward Euler unit test results}{subsection.7.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Unit test of implementation of Forward Euler scheme. Results from manual calculations are compared with the output of forward euler implementation, for time steps $j=1$ ($t = \Delta t$) and $j=2$ ($t = 2\Delta t$).\relax }}{24}{table.caption.20}\protected@file@percent }
+\newlabel{tab:unit_test}{{4}{24}{Unit test of implementation of Forward Euler scheme. Results from manual calculations are compared with the output of forward euler implementation, for time steps $j=1$ ($t = \Delta t$) and $j=2$ ($t = 2\Delta t$).\relax }{table.caption.20}{}}
+\bibcite{yi2004neural}{{7}{}{{}}{{}}}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\gdef \@abspage@last{28}

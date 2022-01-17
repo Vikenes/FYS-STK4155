@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{xavier}
+Xavier Glorot and Y.~Bengio.
+\newblock Understanding the difficulty of training deep feedforward neural
+  networks.
+\newblock {\em Journal of Machine Learning Research - Proceedings Track},
+  9:249--256, 01 2010.
+
+\bibitem{He}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Delving deep into rectifiers: Surpassing human-level performance on
+  imagenet classification.
+\newblock {\em IEEE International Conference on Computer Vision (ICCV 2015)},
+  1502, 02 2015.
+
+\bibitem{2019}
+Pankaj Mehta, Marin Bukov, Ching-Hao Wang, Alexandre~G.R. Day, Clint
+  Richardson, Charles~K. Fisher, and David~J. Schwab.
+\newblock A high-bias, low-variance introduction to machine learning for
+  physicists.
+\newblock {\em Physics Reports}, 810:1–124, May 2019.
+
+\bibitem{project1}
+Håkon~Olav Torvik, Vetle Vikenes, and Sigurd~Sørlie Rustad.
+\newblock Analysis of regression and resampling methods.
+\newblock {\em University of Oslo}, October 2021.
+
+\end{thebibliography}
